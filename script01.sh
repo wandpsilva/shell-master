@@ -28,6 +28,12 @@ else
 	echo "total da soma de parametros: $(expr $1 + $2)"
 fi
 
+upper () {
+	echo $1 | tr a-z A-Z
+}
+
+echo ""
+echo "Retorno da funcao upper:" $(upper wanderlucio)
 echo ""
 echo "============ END ==================================="
 
